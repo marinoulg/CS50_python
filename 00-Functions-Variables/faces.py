@@ -20,14 +20,16 @@ def convert(my_input):
     if ":)" in my_input:
         my_input = my_input.replace(":)", "🙂")
     if ":(" in my_input:
-        my_input = my_input.replace(":(", "🙁")
+        my_input = my_input.replace(":)", "🙁")
     return (my_input)
 
 
 # if __name__ == "__main__":
-def main():
-    prompt = input()
-    new_prompt = convert(prompt)
-    print(new_prompt)
+# def main():
+#     prompt = input()
+#     new_prompt = convert(prompt)
+    # print(new_prompt)
 
-main()
+# main()
+
+print("🙁")
